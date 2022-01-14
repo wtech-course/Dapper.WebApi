@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapper.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.GetAll">
+            <summary>
+            Get all classroom list (Sınıfları listeleyen method)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.GetJoinQuery">
+            <summary>
+            Example join custom method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.GetById(System.Int32)">
+            <summary>
+            Get classroom by id (Sınıf özelliklerini id'ye göre çağıran method)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.Add(Dapper.Core.Entities.ClassRoom)">
+            <summary>
+            Add classroom entity (Sınıf ekleme metodu)
+            </summary>
+            <param name="classRoom"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.Delete(System.Int32)">
+            <summary>
+            Delete  classroom (Sınıfı id' ye göre silen metod)
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.ClassRoomController.Update(Dapper.Core.Entities.ClassRoom)">
+            <summary>
+            Update classroom (Sınıf bilgilerini güncelleyen metod)
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dapper.WebApi.Controllers.StudentController.GetAll">
+            <summary>
+            Get all student list
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
